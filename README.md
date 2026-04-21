@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Local Business QR Feedback Page
 
 QR kod ile acilan, restoran/musteri geri bildirim toplama odakli tek sayfa bir web arayuzu.
@@ -47,7 +47,3 @@ Ekran goruntusunu bu yola ekledikten sonra README'de otomatik gorunecektir.
 ## Lisans
 
 Bu proje [MIT](./LICENSE) lisansi ile lisanslanmistir.
-=======
-# Local-Business-QR-Feedback-Page
-QR kod ile acilan, restoran/musteri geri bildirim toplama odakli tek sayfa bir web arayuzu.
->>>>>>> 8e6bc37aa4c2e97cda615c405ca21d8d430ae7d0
