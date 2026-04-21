@@ -1,17 +1,17 @@
 
 # Local Business QR Feedback Page
 
-QR kod ile acilan, restoran/musteri geri bildirim toplama odakli tek sayfa bir web arayuzu.
+A single-page web app designed for restaurant/customer feedback collection via QR code.
 
-## Ozellikler
+## Features
 
-- Mobil uyumlu ve hizli acilan tek sayfa arayuz
-- 1-5 yildiz puanlama akisi
-- 4-5 yildizda Google yorumuna yonlendirme ve yorum metnini panoya kopyalama
-- Dusuk puanlarda Formspree uzerinden dogrudan geri bildirim gonderimi
-- Basarili aksiyonlarda tesekkur/indirim mesaji ve konfeti efekti
+- Mobile-friendly, fast-loading single-page interface
+- 1-to-5 star rating flow
+- Redirect to Google review for 4-5 star ratings and copy comment text to clipboard
+- Direct feedback submission via Formspree for low ratings
+- Thank-you/discount messages and confetti effect on successful actions
 
-## Teknolojiler
+## Technologies
 
 - HTML5
 - Tailwind CSS (CDN)
@@ -19,28 +19,28 @@ QR kod ile acilan, restoran/musteri geri bildirim toplama odakli tek sayfa bir w
 - Font Awesome
 - Formspree (webhook/form endpoint)
 
-## Kurulum ve Calistirma
+## Setup and Run
 
-1. Projeyi indir:
+1. Clone the project:
    - `git clone <repo-url>`
-2. Proje klasorune gir:
+2. Go to the project folder:
    - `cd localbusiness-qr`
-3. `index.html` dosyasini tarayicida ac.
+3. Open `index.html` in your browser.
 
-Not: Lokal gelistirme icin VS Code Live Server gibi bir eklenti de kullanabilirsin.
+Note: You can also use an extension like VS Code Live Server for local development.
 
-## Yapilandirma
+## Configuration
 
-`index.html` icinde su degerleri kendi isletmene gore guncelle:
+Update these values in `index.html` for your own business:
 
 - `googlePlaceId`
 - `ownerWebhookUrl` (Formspree endpoint)
-- Isletme adi, adres, telefon ve calisma saatleri
+- Business name, address, phone number, and working hours
 
-## Uygulama Gorseli
+## App Preview
 
-![Uygulama Onizleme](./assets/app-preview.png)
+![App Preview](./assets/app-preview.png)
 
-## Lisans
+## License
 
-Bu proje [MIT](./LICENSE) lisansi ile lisanslanmistir.
+This project is licensed under the [MIT](./LICENSE) License.
