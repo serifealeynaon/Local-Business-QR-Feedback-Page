@@ -39,9 +39,6 @@ Not: Lokal gelistirme icin VS Code Live Server gibi bir eklenti de kullanabilirs
 
 ## Uygulama Gorseli
 
-Asagidaki satirda `assets/app-preview.png` dosyasini kullanacak sekilde yer ayrildi.  
-Ekran goruntusunu bu yola ekledikten sonra README'de otomatik gorunecektir.
-
 ![Uygulama Onizleme](./assets/app-preview.png)
 
 ## Lisans
